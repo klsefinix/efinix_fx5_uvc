@@ -1,0 +1,54 @@
+{
+    "core": {
+        "version": "4.3.3.44443"
+    },
+    "opt": {
+        "props": {
+            "capabilities": [
+                "anycloud",
+                "bsp_gen4",
+                "can",
+                "cat1",
+                "cat1a",
+                "dma",
+                "flash_512k",
+                "fx3g2",
+                "i2c",
+                "i2s",
+                "j2",
+                "kit_fx20_fmc_001",
+                "led",
+                "low_power",
+                "lptimer",
+                "mcu_gp",
+                "memory",
+                "multi_core",
+                "nor_flash",
+                "pdm",
+                "qspi",
+                "spi",
+                "sram_128k",
+                "std_crypto",
+                "switch",
+                "tdm",
+                "uart",
+                "usb_device",
+                "usb_host"
+            ],
+            "dependencies": {
+                "cat1cm0p": "release-v1.11.0",
+                "core-lib": "release-v1.7.0",
+                "core-make": "release-v3.9.0",
+                "mtb-pdl-cat1": "release-v3.23.0",
+                "recipe-make-cat1a": "release-v2.7.0"
+            },
+            "docs_dir": "docs",
+            "flow_version": "2.0",
+            "min_tools": "3.0.0",
+            "template": {
+                "id": "mtb-template-cat1",
+                "version": "release-v1.6.1"
+            }
+        }
+    }
+}
